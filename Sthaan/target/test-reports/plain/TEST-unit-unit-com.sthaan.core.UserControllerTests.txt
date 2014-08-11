@@ -1,0 +1,18 @@
+Testsuite: com.sthaan.core.UserControllerTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.95 sec
+------------- Standard Output ---------------
+--Output from testAddUser--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testAddUser--
+------------- ---------------- ---------------
+
+Testcase: testAddUser took 0.926 sec
+	Caused an ERROR
+Missing required parameters: name, phone, addedByPhone
+com.sthaan.UnexpectedDataException: Missing required parameters: name, phone, addedByPhone
+	at com.sthaan.validators.ActionValidationService$_validateActionParameters_closure1.doCall(ActionValidationService.groovy:14)
+	at com.sthaan.validators.ActionValidationService.validateActionParameters(ActionValidationService.groovy:11)
+	at com.sthaan.core.UserController.addUser(UserController.groovy:13)
+	at com.sthaan.core.UserControllerTests.testAddUser(UserControllerTests.groovy:21)
+

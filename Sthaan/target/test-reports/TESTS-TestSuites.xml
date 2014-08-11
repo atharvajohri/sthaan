@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="ATHARVA-JOHRI" id="0" name="UserControllerTests" package="com.sthaan.core" tests="1" time="0.95" timestamp="2014-08-11T15:21:32">
+      <properties />
+
+      <testcase classname="com.sthaan.core.UserControllerTests" name="testAddUser" time="0.928">
+          <error message="Missing required parameters: name, phone, addedByPhone" type="com.sthaan.UnexpectedDataException">com.sthaan.UnexpectedDataException: Missing required parameters: name, phone, addedByPhone
+	at com.sthaan.validators.ActionValidationService$_validateActionParameters_closure1.doCall(ActionValidationService.groovy:14)
+	at com.sthaan.validators.ActionValidationService.validateActionParameters(ActionValidationService.groovy:11)
+	at com.sthaan.core.UserController.addUser(UserController.groovy:13)
+	at com.sthaan.core.UserControllerTests.testAddUser(UserControllerTests.groovy:21)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testAddUser--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testAddUser--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
